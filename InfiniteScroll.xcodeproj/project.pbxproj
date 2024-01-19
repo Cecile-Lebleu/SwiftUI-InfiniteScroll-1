@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362D06B12B44ED6A0037CEAD /* ZoomableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D06B02B44ED6A0037CEAD /* ZoomableView.swift */; };
+		362D06B32B44EE290037CEAD /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D06B22B44EE290037CEAD /* HorizontalScrollView.swift */; };
+		362D06B52B44EE6F0037CEAD /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D06B42B44EE6F0037CEAD /* VerticalScrollView.swift */; };
+		364558962B45D4C9004C6885 /* LoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364558952B45D4C9004C6885 /* LoopingScrollView.swift */; };
+		364558982B461955004C6885 /* SwiftUILoopScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364558972B461955004C6885 /* SwiftUILoopScroll.swift */; };
+		36A491BB2B45B741009A328F /* InfiniteHorizontalZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A491BA2B45B741009A328F /* InfiniteHorizontalZoomView.swift */; };
+		36F9730C2B4738C500DD00C3 /* NewLoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F9730B2B4738C500DD00C3 /* NewLoopingScrollView.swift */; };
+		36F9730E2B4776F200DD00C3 /* Newnew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F9730D2B4776F200DD00C3 /* Newnew.swift */; };
 		746FEDD826A2E38800960AD9 /* InfiniteScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FEDD726A2E38800960AD9 /* InfiniteScrollApp.swift */; };
 		746FEDDA26A2E38800960AD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FEDD926A2E38800960AD9 /* ContentView.swift */; };
 		746FEDDC26A2E38900960AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746FEDDB26A2E38900960AD9 /* Assets.xcassets */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362D06B02B44ED6A0037CEAD /* ZoomableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableView.swift; sourceTree = "<group>"; };
+		362D06B22B44EE290037CEAD /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		362D06B42B44EE6F0037CEAD /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
+		364558952B45D4C9004C6885 /* LoopingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingScrollView.swift; sourceTree = "<group>"; };
+		364558972B461955004C6885 /* SwiftUILoopScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILoopScroll.swift; sourceTree = "<group>"; };
+		36A491BA2B45B741009A328F /* InfiniteHorizontalZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteHorizontalZoomView.swift; sourceTree = "<group>"; };
+		36F9730B2B4738C500DD00C3 /* NewLoopingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoopingScrollView.swift; sourceTree = "<group>"; };
+		36F9730D2B4776F200DD00C3 /* Newnew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newnew.swift; sourceTree = "<group>"; };
 		746FEDD426A2E38800960AD9 /* InfiniteScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FEDD726A2E38800960AD9 /* InfiniteScrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollApp.swift; sourceTree = "<group>"; };
 		746FEDD926A2E38800960AD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +54,7 @@
 		746FEDCB26A2E38800960AD9 = {
 			isa = PBXGroup;
 			children = (
+				36F9730D2B4776F200DD00C3 /* Newnew.swift */,
 				746FEDD626A2E38800960AD9 /* InfiniteScroll */,
 				746FEDD526A2E38800960AD9 /* Products */,
 			);
@@ -56,6 +73,13 @@
 			children = (
 				746FEDD726A2E38800960AD9 /* InfiniteScrollApp.swift */,
 				746FEDD926A2E38800960AD9 /* ContentView.swift */,
+				362D06B22B44EE290037CEAD /* HorizontalScrollView.swift */,
+				36A491BA2B45B741009A328F /* InfiniteHorizontalZoomView.swift */,
+				364558952B45D4C9004C6885 /* LoopingScrollView.swift */,
+				36F9730B2B4738C500DD00C3 /* NewLoopingScrollView.swift */,
+				364558972B461955004C6885 /* SwiftUILoopScroll.swift */,
+				362D06B42B44EE6F0037CEAD /* VerticalScrollView.swift */,
+				362D06B02B44ED6A0037CEAD /* ZoomableView.swift */,
 				746FEDE626A2E3B400960AD9 /* Floating.swift */,
 				746FEDDB26A2E38900960AD9 /* Assets.xcassets */,
 				746FEDE026A2E38900960AD9 /* Info.plist */,
@@ -141,9 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362D06B32B44EE290037CEAD /* HorizontalScrollView.swift in Sources */,
+				36F9730E2B4776F200DD00C3 /* Newnew.swift in Sources */,
 				746FEDDA26A2E38800960AD9 /* ContentView.swift in Sources */,
+				364558962B45D4C9004C6885 /* LoopingScrollView.swift in Sources */,
 				746FEDD826A2E38800960AD9 /* InfiniteScrollApp.swift in Sources */,
+				362D06B52B44EE6F0037CEAD /* VerticalScrollView.swift in Sources */,
+				36F9730C2B4738C500DD00C3 /* NewLoopingScrollView.swift in Sources */,
 				746FEDE726A2E3B400960AD9 /* Floating.swift in Sources */,
+				36A491BB2B45B741009A328F /* InfiniteHorizontalZoomView.swift in Sources */,
+				362D06B12B44ED6A0037CEAD /* ZoomableView.swift in Sources */,
+				364558982B461955004C6885 /* SwiftUILoopScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -256,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -273,15 +305,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScroll/Preview Content\"";
-				DEVELOPMENT_TEAM = 7TD9A665TC;
+				DEVELOPMENT_TEAM = A832H47S26;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InfiniteScroll/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devian.InfiniteScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CecileLebleu.InfiniteScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +327,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScroll/Preview Content\"";
-				DEVELOPMENT_TEAM = 7TD9A665TC;
+				DEVELOPMENT_TEAM = A832H47S26;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InfiniteScroll/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devian.InfiniteScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CecileLebleu.InfiniteScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

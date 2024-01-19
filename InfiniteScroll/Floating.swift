@@ -43,13 +43,29 @@ extension Opposable where Content == HorizontalAlignment {
 
 struct Floating_Previews: PreviewProvider {
 	static var previews: some View {
-		HStack {
-			Text("Block 1").float(TextBox(content: "This floats above 1"), alignment: .top)
-			Divider()
-			Text("Block 2")
-			Divider()
-			Text("Block 3").float(TextBox(content: "This floats below 3"), alignment: .bottom)
-		}.fixedSize()
+		VStack {
+			Spacer()
+			
+			HStack {
+				Text("Block 1").float(TextBox(content: "This floats above 1"), alignment: .top)
+				Divider()
+				Text("Block 2")
+				Divider()
+				Text("Block 3").float(TextBox(content: "This floats below 3"), alignment: .bottom)
+			}.fixedSize()
+			
+			Spacer()
+			
+			VStack {
+				Text("Block 1").float(TextBox(content: "This floats before 1"), alignment: .leading)
+				Divider()
+				Text("Block 2")
+				Divider()
+				Text("Block 3").float(TextBox(content: "This floats after 3"), alignment: .trailing)
+			}.fixedSize()
+			
+			Spacer()
+		}
 	}
 
 	struct TextBox: View {
